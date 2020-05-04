@@ -1,0 +1,19 @@
+{
+  "name": "trialgame",
+  "version": "1.0.0",
+  "description": "this is simple game trial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajay gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "locus": "^2.0.4",
+    "mongoose": "^5.9.11",
+    "socket.io": "^2.3.0"
+  }
+}

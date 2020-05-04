@@ -1,0 +1,122 @@
+#main-container{
+    margin-bottom : 25px;
+}
+
+.chatbox , .chatbox-2 {
+	border : 1px solid black;
+	width : 100%;
+	height : 600px;
+	overflow : scroll;
+}
+
+.chatbox-3{
+	border : 1px solid black;
+	width : 100%;
+	overflow : scroll;
+}
+
+#images{
+	display : flex;
+}
+
+.chatpara{
+	margin-bottom : 0px;
+}
+
+.chatitems{
+	margin : 18px 15px;
+}
+
+#sendermess{
+	text-align : end;
+}
+
+.images{
+	width:200px;
+	height : 200px;
+	object-fit:cover;
+}
+
+.img-div{
+	width : 200px;
+	height  : 200px;
+	margin : 25px;
+}
+
+#usernum{
+	font-size : 55px;
+	margin : 0px auto 10px; 
+}
+
+#navbar-brand{
+	font-weight : 700;
+	font-size : 28px;
+}
+
+#home-button-link{
+	font-size : 28px;
+}
+
+.index-container{
+	padding:  2px;
+	margin : 5px auto;
+	
+}
+
+.alltabes{
+	margin-top : 30px;
+}
+
+.label-text{
+	font-size : 20px;
+	font-weight:  700;
+}
+
+#last-formelm{
+	margin-bottom : 0px;
+}
+
+.inner-form-container{
+	padding: 30px;
+    margin: 30px;
+    border: 1px solid;
+	background : #e3e3e36b;
+}
+
+.allimages{
+	width:80%;
+	height : 80%;
+	object-fit : cover;
+}
+
+.col-md-3{
+	text-align : center;
+	background : #e3e3e3;
+}
+
+.message-div{
+    width: 50%;
+    background: #e3e3e3;
+    padding: 10px;
+}
+
+#sendermess .message-div{
+	margin-left : 50%;
+	background: #e3e3e3;
+    padding: 10px;
+}
+
+.message-div p{
+	font-size : 22px;
+	font-weight : 500;
+}
+
+.chatpara{
+	font-size : 25px;
+	font-weight :500;
+	font-style: italic;
+}
+
+.chatitems h3 {
+	font-style: italic;
+}
