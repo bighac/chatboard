@@ -4,7 +4,7 @@ var  express	 = require("express"),
 	 User        = require("./models/user.js"),
 	 Message     = require("./models/messages.js"),
 	 bodyParser  = require("body-parser"),
-     server		 = app.listen(5000 , function(){
+     server		 = app.listen( process.env.PORT || 5000 , function(){
 	 console.log("server started");
 });
 // BODY-PARSER
